@@ -1,0 +1,30 @@
+.sidebar-case {
+  width: 20%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-right: 0.5rem;
+  text-align: left;
+}
+.sidebar-case li {
+  margin-top: 3rem;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+
+.button-71:hover {
+  box-shadow: rgba(221, 214, 214, 0.2) 0 3px 15px inset,
+    rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
